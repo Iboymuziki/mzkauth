@@ -109,16 +109,16 @@
   array (
     'paths' => 
     array (
-      0 => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\resources\\views',
+      0 => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\resources\\views',
     ),
-    'compiled' => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\storage\\framework\\views',
+    'compiled' => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\storage\\framework\\views',
   ),
   'app' => 
   array (
     'name' => 'Laravel',
     'env' => 'local',
     'debug' => true,
-    'url' => 'http://akili.test',
+    'url' => 'http://mzkauth.test',
     'frontend_url' => 'http://localhost:3000',
     'asset_url' => NULL,
     'timezone' => 'UTC',
@@ -273,8 +273,8 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\storage\\framework/cache/data',
-        'lock_path' => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\storage\\framework/cache/data',
+        'path' => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\storage\\framework/cache/data',
+        'lock_path' => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\storage\\framework/cache/data',
       ),
       'storage' => 
       array (
@@ -345,7 +345,7 @@
       array (
         'driver' => 'sqlite',
         'url' => NULL,
-        'database' => 'akili_db',
+        'database' => 'mzkauth_db',
         'prefix' => '',
         'foreign_key_constraints' => true,
         'busy_timeout' => NULL,
@@ -359,7 +359,7 @@
         'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '3306',
-        'database' => 'akili_db',
+        'database' => 'mzkauth_db',
         'username' => 'root',
         'password' => 'root',
         'unix_socket' => '',
@@ -379,7 +379,7 @@
         'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '3306',
-        'database' => 'akili_db',
+        'database' => 'mzkauth_db',
         'username' => 'root',
         'password' => 'root',
         'unix_socket' => '',
@@ -399,7 +399,7 @@
         'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '3306',
-        'database' => 'akili_db',
+        'database' => 'mzkauth_db',
         'username' => 'root',
         'password' => 'root',
         'charset' => 'utf8',
@@ -414,7 +414,7 @@
         'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '3306',
-        'database' => 'akili_db',
+        'database' => 'mzkauth_db',
         'username' => 'root',
         'password' => 'root',
         'charset' => 'utf8',
@@ -472,7 +472,7 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\storage\\app/private',
+        'root' => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\storage\\app/private',
         'serve' => true,
         'throw' => false,
         'report' => false,
@@ -480,8 +480,8 @@
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\storage\\app/public',
-        'url' => 'http://akili.test/storage',
+        'root' => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\storage\\app/public',
+        'url' => 'http://mzkauth.test/storage',
         'visibility' => 'public',
         'throw' => false,
         'report' => false,
@@ -502,19 +502,19 @@
     ),
     'links' => 
     array (
-      'C:\\Users\\chadrack_muziki\\Herd\\akili\\public\\storage' => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\storage\\app/public',
+      'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\public\\storage' => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\storage\\app/public',
     ),
   ),
   'livewire' => 
   array (
     'component_locations' => 
     array (
-      0 => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\resources\\views/livewire',
+      0 => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\resources\\views/livewire',
     ),
     'component_namespaces' => 
     array (
-      'layouts' => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\resources\\views/layouts',
-      'pages' => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\resources\\views/pages',
+      'layouts' => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\resources\\views/layouts',
+      'pages' => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\resources\\views/pages',
     ),
     'component_layout' => 'layouts::app',
     'component_placeholder' => NULL,
@@ -530,8 +530,8 @@
       ),
     ),
     'class_namespace' => 'App\\Livewire',
-    'class_path' => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\app\\Livewire',
-    'view_path' => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\resources\\views/livewire',
+    'class_path' => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\app\\Livewire',
+    'view_path' => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\resources\\views/livewire',
     'temporary_file_upload' => 
     array (
       'disk' => NULL,
@@ -603,14 +603,14 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\storage\\logs/laravel.log',
+        'path' => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\storage\\logs/laravel.log',
         'level' => 'debug',
         'replace_placeholders' => true,
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\storage\\logs/laravel.log',
+        'path' => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
         'replace_placeholders' => true,
@@ -675,7 +675,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\storage\\logs/laravel.log',
+        'path' => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -694,7 +694,7 @@
         'username' => NULL,
         'password' => NULL,
         'timeout' => NULL,
-        'local_domain' => 'akili.test',
+        'local_domain' => 'mzkauth.test',
       ),
       'ses' => 
       array (
@@ -753,7 +753,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\resources\\views/vendor/mail',
+        0 => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\resources\\views/vendor/mail',
       ),
       'extensions' => 
       array (
@@ -878,7 +878,7 @@
     'lifetime' => 120,
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'C:\\Users\\chadrack_muziki\\Herd\\akili\\storage\\framework/sessions',
+    'files' => 'C:\\Users\\chadrack_muziki\\Herd\\mzkauth\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
